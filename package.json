@@ -1,0 +1,29 @@
+{
+  "name": "myapi2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --silent --watchAll",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBrom99/myAPI2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CBrom99/myAPI2/issues"
+  },
+  "homepage": "https://github.com/CBrom99/myAPI2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.1",
+    "supertest": "^6.1.6"
+  }
+}
